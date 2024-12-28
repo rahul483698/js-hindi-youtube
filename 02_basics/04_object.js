@@ -40,12 +40,34 @@ const users = [
 
 users[1].email="r@123"
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));//checked property in object 
+// console.log(tinderUser.hasOwnProperty('isLogged'));//checked property in object 
+
+const course ={
+    coursename :"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+const {courseInstructor:Instructor}=course;
+//console.log(courseInstructor);
+console.log(Instructor);
+
+//json
+/*{
+    "name":"rahul",
+    "city":"siwan",
+    "village":"pipra"
+} 
+
+[
+   *******
+] */
 
 
 
